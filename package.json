@@ -1,16 +1,16 @@
 {
-  "description": "gifted-pair-code",
+  "description": "Hacklink-session",
   "main": "./index.js",
   "type": "commonjs",
   "engines": {
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name gifted",
-    "stop": "pm2 stop gifted",
-    "restart": "pm2 restart gifted"
+    "start": "pm2 start index.js --deep-monitoring --attach --name hacklink",
+    "stop": "pm2 stop hacklink",
+    "restart": "pm2 restart hacklink"
   },
-  "author": "Gifted Tech",
+  "author": "HACKLINK TECH.INC",
   "license": "GPL-3.0 license",
   "dependencies": {
     "awesome-phonenumber": "^2.64.0",
