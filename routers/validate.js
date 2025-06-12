@@ -15,7 +15,7 @@ router.post('/', async (req, res) => {
         if (!sessionId.startsWith('Gifted~')) {
             return res.status(400).json({ 
                 valid: false,
-                error: 'Invalid Session ID format: Must start with "Gifted~"'
+                error: 'Invalid Session ID format: Must start with "Hacklink~"'
             });
         }
 
